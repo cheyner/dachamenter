@@ -82,14 +82,14 @@ class DATABASE_CONFIG {
 		'database' => 'dacha1',
 		'prefix' => '',
 	);
-	#var $test = array(
-	#	'driver' => 'mysql',
-	#	'persistent' => false,
-	#	'host' => 'localhost',
-	#	'login' => 'dacha1',
-	#	'password' => 'dacha1',
-	#	'database' => 'test_dacha1',
-	#	'prefix' => '',
-	#);
+	var $test = array(
+		'driver' => 'mysql',
+		'persistent' => false,
+		'host' => '127.0.0.1',
+		'login' => 'dacha1',
+		'password' => 'dacha1',
+		'database' => 'dacha1_test',
+		'prefix' => '',
+	);
 
 }
